@@ -28,15 +28,13 @@ public class Main {
            {
                arr[i] = 0;
            }
+           if(arr[i] > result)
+           {
+               result = arr[i];
+           }
            back = back<front ? back : front;
        }
-       for(int j = 0;j<N;j++)
-       {
-           if(result < arr[j])
-           {
-               result = arr[j];
-           }
-       }
+     
        System.out.println(result);
     }
 
