@@ -1,4 +1,4 @@
-# baaarkingdog array(배열)관련 내용 정리
+# array(배열)관련 내용 정리
 
 
 <hr>
