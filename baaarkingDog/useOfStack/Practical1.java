@@ -2,10 +2,6 @@ import java.io.*;
 import java.util.Stack;
 
 
-
-//()가 연속으로 들어오면 레이저로 인식
-//(이후에 레이저가 나오고 나서 )가 나오면 여기까지를 쇠막대기로 인식
-
 public class Main {
 
     public static void main(String[] args) throws IOException {
