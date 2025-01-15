@@ -30,5 +30,5 @@
 - Practice1.jave : 백준 4949 <a href = "https://www.acmicpc.net/problem/4949">균형잡힌세상</a>
 - Practice2.java : 백준 3986 <a href = "https://www.acmicpc.net/problem/3986">좋은 단어</a>
 ### 응용 문제 풀이
-- Practical1.java : 백준 10799 <a href = "https://www.acmicpc.net/problem/10799">쇠막대기</a>
+- Problem1.java : 백준 10799 <a href = "https://www.acmicpc.net/problem/10799">쇠막대기</a>
   - 답지를 참고한 풀이

@@ -17,4 +17,4 @@ Deque.java = 강의 내용에서 구현한 Deque
 - Practice1.java : 덱 <a href = "https://www.acmicpc.net/problem/10866">덱</a>
 
 ### 응용 문제 풀이
-- Practical1.java : 회전하는 큐 <a href = "https://www.acmicpc.net/problem/1021">회전하는 큐</a>
+- Problem1.java : 회전하는 큐 <a href = "https://www.acmicpc.net/problem/1021">회전하는 큐</a>

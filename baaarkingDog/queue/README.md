@@ -19,7 +19,7 @@ Queue(큐) : FIFO(First In First Out)선입선출 구조의 자료구조
 
 
 ### 응용 문제 풀이
-- Practical1.java : 백준 18258 <a href = "https://www.acmicpc.net/problem/18258">큐2</a>
-- Practical2.java : 백준 2164 <a href = "https://www.acmicpc.net/problem/2164">카드2</a>
+- Problem1.java : 백준 18258 <a href = "https://www.acmicpc.net/problem/18258">큐2</a>
+- Problem2.java : 백준 2164 <a href = "https://www.acmicpc.net/problem/2164">카드2</a>
 
 큐, 큐2 문제의 차이는 명령어의 차이였다. 배열의 크기를 늘려줘서 해결했다.

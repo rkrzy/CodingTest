@@ -17,5 +17,5 @@ Stack : LIFO구조를 가지고 있는 자료주고 Restricted Structure로 불�
 - Practice1.java = 백준 10828번 스택 - Stack클래스로 풀이
 
 ### 응용 문제 풀이
-- Practical1.java : 백준 10773번 스택 <a href = "https://www.acmicpc.net/problem/10773">스택</a>
-- Practical2.java : 백준 1874번 스택 수열 <a href ="https://www.acmicpc.net/problem/1874">스택 수열</a>
+- Problem1.java : 백준 10773번 스택 <a href = "https://www.acmicpc.net/problem/10773">스택</a>
+- Problem2.java : 백준 1874번 스택 수열 <a href ="https://www.acmicpc.net/problem/1874">스택 수열</a>
