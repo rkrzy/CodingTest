@@ -28,7 +28,10 @@ public class Main {
             arr[gender+(grade*2)]++;
         }
         for(int i = 2;i<14;i++){
-            result += (arr[i]/k) + (arr[i]%k);
+            result += (arr[i]/k);
+            if(arr[i]%k != 0){
+                result++;
+            }
         }
 
         System.out.println(result);
