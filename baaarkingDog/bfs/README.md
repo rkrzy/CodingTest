@@ -18,5 +18,6 @@ BFS : 다차원 배열에서 각 칸을 방문할 때 너비를 우선으로 방
 - Practice5.java = 백준 1697 <a href = "https://www.acmicpc.net/problem/1697">숨바꼭질</a>
 
 ### 응용 문제 풀이
-
+- Problem1.java = 백준 1012 <a href = "https://www.acmicpc.net/problem/1012">유기농 배추</a>
+- Problem2.java = 백준 2583 <a href = "https://www.acmicpc.net/problem/2583">영역 구하기</a>
 

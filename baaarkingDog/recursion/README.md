@@ -35,3 +35,4 @@ func1(1) -> func1(k)가 k-1, k-2, --- 1을 출력하면 func1(k+1)은 k+1, k, k-
 - Problem1.java : 백준 17478 <a href = "https://www.acmicpc.net/problem/17478">재귀함수가 뭔가요?</a>
 - Problem2.java : 백준 1780 <a href = "https://www.acmicpc.net/status?user_id=wnstlr9891&problem_id=1780&from_mine=1">종이의 개수</a>
   - 좀 더 간단하게 할 수 있는 방법을 생각해보면 좋을 거 같다. -> 오래 걸렸음
+- Problem3.java : 백준 2630 <a href = "https://www.acmicpc.net/problem/2630">색종이 만들기</a>

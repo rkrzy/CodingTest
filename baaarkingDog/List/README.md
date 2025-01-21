@@ -61,3 +61,6 @@
 <li> 문제 : 주어진 연결 리스트 안에 사이클이 있는지 판단해라</li>
 <li>정답 : Floyd's cycle-finding algorithm</li>
 <li>공간복잡도 O(1), 시간복잡도 : O(N)</li>
+
+### 응용 문제 풀이
+- Problem1.java = 백준 1158 <a href="https://www.acmicpc.net/problem/1158">요세푸스 문제</a>
