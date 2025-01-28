@@ -19,10 +19,10 @@ public class Main {
         for(int i = start; i <end; i++){
             if(rIdx == end)temp[i] = arr[lIdx++];
             else if(lIdx == mid)temp[i] = arr[rIdx++];
-            else if(arr[lIdx].y < arr[rIdx].y)temp[i] = arr[lIdx++];
-            else if(arr[lIdx].y > arr[rIdx].y)temp[i] = arr[rIdx++];
+            else if(arr[lIdx].x < arr[rIdx].x)temp[i] = arr[lIdx++];
+            else if(arr[lIdx].x > arr[rIdx].x)temp[i] = arr[rIdx++];
             else {
-                if(arr[lIdx].x >= arr[rIdx].x)temp[i] = arr[rIdx++];
+                if(arr[lIdx].y >= arr[rIdx].y)temp[i] = arr[rIdx++];
                 else temp[i] = arr[lIdx++];
             }
         }

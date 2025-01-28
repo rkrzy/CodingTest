@@ -1,16 +1,9 @@
 import java.io.*;
 
 public class Main {
-    static Coordinate[] arr;
-    static Coordinate[] temp;
-    static class Coordinate{
-        int x;
-        int y;
-        Coordinate(int x, int y){
-            this.x = x;
-            this.y = y;
-        }
-    }
+    static int[] arr;
+    static int[] temp;
+
     static void merge(int start, int end)
     {
         int mid = (start + end)/2;
@@ -19,12 +12,8 @@ public class Main {
         for(int i = start; i <end; i++){
             if(rIdx == end)temp[i] = arr[lIdx++];
             else if(lIdx == mid)temp[i] = arr[rIdx++];
-            else if(arr[lIdx].y < arr[rIdx].y)temp[i] = arr[lIdx++];
-            else if(arr[lIdx].y > arr[rIdx].y)temp[i] = arr[rIdx++];
-            else {
-                if(arr[lIdx].x >= arr[rIdx].x)temp[i] = arr[rIdx++];
-                else temp[i] = arr[lIdx++];
-            }
+            else if(arr[lIdx] <= arr[rIdx])temp[i] = arr[lIdx++];
+            else temp[i] = arr[rIdx++];
         }
         for(int i = start; i < end; i++) arr[i] = temp[i];
     }
@@ -40,17 +29,15 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         int N = Integer.parseInt(br.readLine());
-        String[] str;
-        arr = new Coordinate[N];
-        temp = new Coordinate[N];
+        arr = new int[N];
+        temp = new int[N];
         for(int i = 0; i < N;i++)
         {
-            str = br.readLine().split(" ");
-            arr[i] = new Coordinate(Integer.parseInt(str[0]), Integer.parseInt(str[1]) );
+            arr[i] = Integer.parseInt(br.readLine());
         }
         mergeSort(0, N);
-        for(Coordinate cor : arr){
-            bw.append(cor.x + " " + cor.y + "\n");
+        for(int num : arr){
+            bw.append(num + "\n");
         }
         bw.flush();
 
