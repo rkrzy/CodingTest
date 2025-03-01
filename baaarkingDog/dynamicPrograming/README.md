@@ -37,3 +37,7 @@ DP를 푸는 과정
 - Problem13.java : 백준 2302 <a href = "https://www.acmicpc.net/problem/2302">극장 좌석</a>
 - Problem14.java : 백준 14002 <a href = "https://www.acmicpc.net/problem/14002">가장 긴 증가하는 부분 수열 4</a> ->  <span style="color:red;">혼자서 해결을 못했다.<span>
 - Problem15.java : 백준 11052 <a href = "https://www.acmicpc.net/problem/11052">카드 구매하기</a> ->  <span style="color:red;">혼자서 해결을 못했다.<span>
+- Problem16.java : 백준 9465 <a href = "https://www.acmicpc.net/problem/9465">스티커</a>
+- Problem17.java : 백준 11057 <a href = "https://www.acmicpc.net/problem/11057">오르막 수</a> ->  <span style="color:red;">혼자서 해결을 못했다.<span>
+- Problem18.java : 백준 1788 <a href = "https://www.acmicpc.net/problem/1788">피보나치 수의 확장</a>
+- Problem19.java : 백준 4883 <a href = "https://www.acmicpc.net/problem/4883">삼각 그래프</a> ->  <span style="color:blue;">30분이상 걸렸다<span>
