@@ -23,3 +23,8 @@
 - Practice3.java : 백준 2217 <a href = "https://www.acmicpc.net/problem/2217">로프</a>
 - Practice4.java : 백준 1026 <a href = "https://www.acmicpc.net/problem/1026">보물</a>
 ### 응용 문제 풀이
+- Problem1.java : 백준 1541 <a href = "https://www.acmicpc.net/problem/1541">잃어버린 괄호</a> => 문자열을 파싱하는 부분에서 오래 걸렸다. 연습 필요
+- Problem2.java : 백준 11501 <a href = "https://www.acmicpc.net/problem/11501">주식</a> => <span style="color:red;">혼자서 해결을 못했다.<span>
+- Problem3.java : 백준 1744 <a href = "https://www.acmicpc.net/problem/1744">수 묶기</a> => <span style="color:red;">혼자서 해결을 못했다.<span>
+- Problem4.java : 백준 2847 <a href = "https://www.acmicpc.net/problem/2847">게임을 만든 동준이</a>
+- 

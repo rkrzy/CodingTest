@@ -41,3 +41,7 @@ DP를 푸는 과정
 - Problem17.java : 백준 11057 <a href = "https://www.acmicpc.net/problem/11057">오르막 수</a> ->  <span style="color:red;">혼자서 해결을 못했다.<span>
 - Problem18.java : 백준 1788 <a href = "https://www.acmicpc.net/problem/1788">피보나치 수의 확장</a>
 - Problem19.java : 백준 4883 <a href = "https://www.acmicpc.net/problem/4883">삼각 그래프</a> ->  <span style="color:blue;">30분이상 걸렸다<span>
+- Problem20.java : 백준 9251 <a href = "https://www.acmicpc.net/problem/9251">LCS</a> -> <span style="color:red;">이 문제는 알고리즘을 이해할 필요가 있다.<span>
+- Problem21.java : 백준 1699 <a href = "https://www.acmicpc.net/problem/1699">제곱수의 합</a> ->  <span style="color:blue;">30분이상 걸렸다<span>
+- Problem22.java : 백준 9084 <a href = "https://www.acmicpc.net/problem/9084">동전</a> ->  <span style="color:red;">혼자서 해결을 못했다.<span>
+- Problem23.java : 백준 1915 <a href = "https://www.acmicpc.net/problem/1915">가장 큰 정사각형</a>  ->  <span style="color:red;">정말 발상 자체를 못한 문제다.<span>
