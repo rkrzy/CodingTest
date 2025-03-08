@@ -26,5 +26,5 @@
 
 - Problem19.java : 백준 4883 <a href = "https://www.acmicpc.net/problem/4883">삼각 그래프</a> ->  <span style="color:blue;">30분이상 걸렸다<span>
 - Problem21.java : 백준 1699 <a href = "https://www.acmicpc.net/problem/1699">제곱수의 합</a> ->  <span style="color:blue;">30분이상 걸렸다<span>
-
+- Problem24.java : 백준 10942 <a href = "https://www.acmicpc.net/problem/10942">팰린드롬?</a> ->  <span style="color:red;">진짜 레전드 문제<span> 
 </details>
