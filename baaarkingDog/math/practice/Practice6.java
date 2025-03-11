@@ -11,16 +11,13 @@ public class Main {
 
         int N = Integer.parseInt(str[0]);
         int K = Integer.parseInt(str[1]);
-        int[][] comb = new int[1002][1002];
+        int result = 1;
 
-        for(int i = 1; i <= 1000; i++){
-            comb[i][0] = comb[i][i] = 1;
-            for(int j = 1; j < i ; j++){
-                comb[i][j] = (comb[i-1][j] + comb[i-1][j-1])%10007;
-            }
-        }
-        System.out.println(comb[N][K]);
+        for(int i = 1; i <= N; i++) result *= i;
+        for(int i = 1; i <= K; i++) result /= i;
+        for(int i = 1; i <= N-K; i++) result /=i;
 
+        System.out.println(result);
         }
     }
 

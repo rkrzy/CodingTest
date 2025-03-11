@@ -28,3 +28,8 @@
 - Problem21.java : 백준 1699 <a href = "https://www.acmicpc.net/problem/1699">제곱수의 합</a> ->  <span style="color:blue;">30분이상 걸렸다<span>
 - Problem24.java : 백준 10942 <a href = "https://www.acmicpc.net/problem/10942">팰린드롬?</a> ->  <span style="color:red;">진짜 레전드 문제<span> 
 </details>
+
+# 항상 조심해야 하는 부분
+- 값을 잘 확인하고 자료형을 어떤걸 사용해야 할지 생각하자.
+- 자료구조를 다양하게 사용할 줄 알아야 한다.
+- 코드를 짜기 전에 먼저 풀이를 하고 시작하자.

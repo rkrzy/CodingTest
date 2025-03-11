@@ -47,3 +47,5 @@ DP를 푸는 과정
 - Problem23.java : 백준 1915 <a href = "https://www.acmicpc.net/problem/1915">가장 큰 정사각형</a>  ->  <span style="color:red;">정말 발상 자체를 못한 문제다.<span>
 - Problem24.java : 백준 10942 <a href = "https://www.acmicpc.net/problem/10942">팰린드롬?</a> ->  <span style="color:red;">혼자서 해결을 못했다.<span>
 - Problem25.java : 백준 9655 <a href = "https://www.acmicpc.net/problem/9655">돌 게임</a>
+- Problem26.java : 백준 2011 <a href = "https://www.acmicpc.net/problem/2011">암호코드</a> ->  <span style="color:blue;">30분이상 걸렸다<span>
+- Problem27.java : 백준 2294 <a href = "https://www.acmicpc.net/problem/2294">동전 2</a>

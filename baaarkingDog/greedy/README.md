@@ -28,4 +28,6 @@
 - Problem3.java : 백준 1744 <a href = "https://www.acmicpc.net/problem/1744">수 묶기</a> => <span style="color:red;">혼자서 해결을 못했다.<span>
 - Problem4.java : 백준 2847 <a href = "https://www.acmicpc.net/problem/2847">게임을 만든 동준이</a>
 - Problem5.java : 백준 1439 <a href = "https://www.acmicpc.net/problem/1439">뒤집기</a> => <span style="color:red;">혼자서 해결을 못했다.<span>
-- Problem6.java : 백준 11000 <a href = "https://www.acmicpc.net/problem/11000">강의실 배정</a> => <span style="color:red;">혼자서 해결을 못했다.<span> 
+- Problem6.java : 백준 11000 <a href = "https://www.acmicpc.net/problem/11000">강의실 배정</a> => <span style="color:red;">혼자서 해결을 못했다.<span>
+- Problem7.java : 백준 15903 <a href = "https://www.acmicpc.net/problem/15903">카드 합체 놀이</a>
+- Problem8.java : 백준 2170 <a href = "https://www.acmicpc.net/problem/2170">선 긋기</a> ->  <span style="color:blue;">30분이상 걸렸다<span>
