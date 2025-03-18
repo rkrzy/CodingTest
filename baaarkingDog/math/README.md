@@ -30,6 +30,17 @@
 - 순서를 고려하지 않고 5개에서 3개를 뽑는 경우의 수 : 5!/(3!2!) = 10
 - 순서를 고려해서 5개에서 3개를 뽑는 경우의 수 : 5!/2! = 60
 - nCk = (n - 1)C(k - 1) + (n - 1)Ck 
+## 각자리 배수의 조건 
+- 0 의 배수	모든 숫자는 1의 배수
+- 2의 배수	마지막 자릿수가 0, 2, 4, 6, 8 중 하나
+- 3의 배수	모든 자릿수의 합이 3의 배수
+- 4의 배수	마지막 두 자리 숫자가 4의 배수
+- 5의 배수	마지막 자릿수가 0 또는 5
+- 6의 배수	2의 배수 && 3의 배수 (위 조건 모두 만족)
+- 7의 배수	특정 규칙이 있지만 계산이 복잡함 (직접 나눠봐야 함)
+- 8의 배수	마지막 세 자리 숫자가 8의 배수
+- 9의 배수	모든 자릿수의 합이 9의 배수
+- 10의 배수	마지막 자릿수가 0
 ### 연습 문제 풀이
 - Practice1.java = 백준 1978 <a href = "https://www.acmicpc.net/problem/1978">소수찾기</a>
 - Practice2.java = 백준 1929 <a href = "https://www.acmicpc.net/problem/1929">소수 구하기</a>
@@ -39,4 +50,8 @@
 - Practice6.java = 백준 11050 <a href = "https://www.acmicpc.net/problem/11050">이항 계수 1</a>
 - Practice7.java = 백준 11051 <a href = "https://www.acmicpc.net/problem/11051">이항 계수 2</a>
 ### 응용 문제 풀이
-
+- Problem1.java = 백준 2960 <a href = "https://www.acmicpc.net/problem/2960">에라토스테네스의 체</a>
+- Problem2.java = 백준 4948 <a href = "https://www.acmicpc.net/problem/4948">베르트랑 공준</a>
+- Problem3.java = 백준 9613 <a href = "https://www.acmicpc.net/problem/9613">GCD 합</a>
+- Problem4.java = 백준 10610 <a href = "https://www.acmicpc.net/problem/10610">30</a>
+- Problem5.java = 백준 1456 <a href = "https://www.acmicpc.net/problem/1456"> 거의 소수 </a> => <span style="color:red;">혼자서 해결을 못했다.<span>
