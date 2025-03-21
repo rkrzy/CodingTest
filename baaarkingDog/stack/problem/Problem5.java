@@ -33,7 +33,7 @@ public class Main {
                 stack.add(arr[i]);
             }
             else if(stack.peek().num <= arr[i].num){
-                while(!stack.isEmpty() && stack.peek().num < arr[i].num){
+                while(!stack.isEmpty() &&stack.peek().num < arr[i].num){
                     Pair p = stack.pop();
                     result[p.index] = arr[i].num;
                 }

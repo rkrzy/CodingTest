@@ -20,3 +20,5 @@ Stack : LIFO구조를 가지고 있는 자료주고 Restricted Structure로 불�
 - Problem1.java : 백준 10773 <a href = "https://www.acmicpc.net/problem/10773">스택</a>
 - Problem2.java : 백준 1874 <a href ="https://www.acmicpc.net/problem/1874">스택 수열</a>
 - Problem3.java : 백준 2494 <a href = "https://www.acmicpc.net/problem/2493">탑</a>
+- Problem4.java : 백준 6198 <a href = "https://www.acmicpc.net/problem/6198">옥상 정원 꾸미기</a>
+- Problem5.java : 백 17928 <a href = "https://www.acmicpc.net/problem/17298">오큰수</a>
