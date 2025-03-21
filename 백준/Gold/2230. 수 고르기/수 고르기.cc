@@ -23,6 +23,8 @@ int solution(int * a, int size,int M){
 }
 
 int main(){
+    ios::sync_with_stdio(0);
+    cin.tie(0);
     int N;
     int M;
     cin >>N >> M;
