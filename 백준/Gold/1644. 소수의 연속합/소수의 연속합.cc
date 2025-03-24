@@ -13,13 +13,11 @@ int solution(vector<int> arr, int N){
     int total = arr[0];
     while(start < arr.size() && end < arr.size()){
         if(total < N){
-            if (++end >= arr.size()) break;
-            total += arr[end];
+            total += arr[++end];
         }
         else if(total == N){
             result++;
-            if (++end >= arr.size()) break;
-            total += arr[end];
+            total += arr[++end];
         }
         else{
             total -= arr[start++];
