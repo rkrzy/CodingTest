@@ -23,9 +23,7 @@ int solution(vector<int> arr, int N){
             total -= arr[start++];
             if(start > end){
                 end = start;
-                if(start < arr.size()){
-                    total = arr[start];
-                }
+                total = arr[start];
             }
         }
     }
