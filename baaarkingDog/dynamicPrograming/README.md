@@ -49,3 +49,7 @@ DP를 푸는 과정
 - Problem25.java : 백준 9655 <a href = "https://www.acmicpc.net/problem/9655">돌 게임</a>
 - Problem26.java : 백준 2011 <a href = "https://www.acmicpc.net/problem/2011">암호코드</a> ->  <span style="color:blue;">30분이상 걸렸다<span>
 - Problem27.java : 백준 2294 <a href = "https://www.acmicpc.net/problem/2294">동전 2</a>
+
+- Problem28.cpp : 백준 2133 <a href = "https://www.acmicpc.net/problem/2133">타일 채우기</a> ->  <span style="color:red;">혼자서 해결을 못했다.<span>
+- Problem29.cpp : 백준 11660 <a href = "https://www.acmicpc.net/problem/11660">구간 합 구하기5</a>
+- 

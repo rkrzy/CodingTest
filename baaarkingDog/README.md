@@ -19,6 +19,11 @@
 - Problem23.java : 백준 1915 <a href = "https://www.acmicpc.net/problem/1915">가장 큰 정사각형</a>  ->  <span style="color:red;">정말 발상 자체를 못한 문제다.<span>
 
 </details>
+<details>
+<summary>투 포인터</summary>
+
+- Problem2.cpp : 백준 1644 <a href = "https://www.acmicpc.net/problem/1644">소수의 연속합</a> <span style="color:red;">혼자서 해결을 못했다.<span>
+</details>
 
 # 풀긴 풀었는데 시간이 오래 걸린 문제
 <details>
@@ -28,6 +33,8 @@
 - Problem21.java : 백준 1699 <a href = "https://www.acmicpc.net/problem/1699">제곱수의 합</a> ->  <span style="color:blue;">30분이상 걸렸다<span>
 - Problem24.java : 백준 10942 <a href = "https://www.acmicpc.net/problem/10942">팰린드롬?</a> ->  <span style="color:red;">진짜 레전드 문제<span> 
 </details>
+
+
 
 # 항상 조심해야 하는 부분
 - 값을 잘 확인하고 자료형을 어떤걸 사용해야 할지 생각하자.
