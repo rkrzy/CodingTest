@@ -26,4 +26,5 @@
 - practice2.cpp : 백준 1715 <a href = "https://www.acmicpc.net/problem/1715">카드 정렬하기</a>
 
 ### 응용 문제 풀이
-
+- Problem1.cpp : 백준 2075 <a href = "https://www.acmicpc.net/problem/2075">N번째 큰 수</a>
+- 
