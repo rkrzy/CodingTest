@@ -13,28 +13,13 @@ int main() {
 
    int N;
    int imNum, kimNum;
-   int result = 1;
-   int maxNum, minNum;
+   int result = 0;
+
    cin >> N >> imNum >> kimNum;
-   maxNum = max(imNum, kimNum);
-   minNum = min(imNum, kimNum);
-   while(true){
-       if(maxNum-1 == minNum && maxNum % 2 == 0){
-           break;
-       }
-       if(maxNum % 2 == 0){
-           maxNum /= 2;
-       }else
-       {
-           maxNum = (maxNum+1) / 2;
-       }
-       if(minNum % 2 == 0){
-           minNum /= 2;
-       }else{
-           minNum = (minNum+1) / 2;
-       }
-//       cout << maxNum << minNum << "\n";
-       result++;
+   while(imNum != kimNum){
+        imNum = (imNum+1)/2;
+        kimNum = (kimNum+1)/2;
+        result++;
    }
 cout << result;
 
