@@ -72,8 +72,7 @@ void zone_blind(int x, int y,int color_num){
     }
 }
 
-int solution(int rule){
-    int result = 0;
+void solution(int rule){
     for(int i = 0; i < N; i++){
         for(int j = 0; j < N; j++){
             if(!visited[i][j]){
@@ -88,7 +87,6 @@ int solution(int rule){
             }
         }
     }
-    return result;
 }
 
 int main(){
