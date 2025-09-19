@@ -1,43 +1,40 @@
 #include <string>
 #include <vector>
-#include <algorithm>
-#include <map>
-#include <iostream>
+#include <unordered_map>
 using namespace std;
 
 vector<int> solution(vector<int> answers) {
-    vector<int> solution;
-    map<int, vector<int>> peoples;
-    int chance[3] = {0, 0, 0};
-    peoples.insert({1, {1,2,3,4,5}});
-    peoples.insert({2, {2,1,2,3,2,4,2,5}});
-    peoples.insert({3, {3, 3, 1, 1, 2, 2, 4,4, 5, 5}});
+    vector<int> answer;
+    unordered_map<int, int> scores;
+    unordered_map<int, vector<int> > rules;
     
-    int high = 0;
+    int max_value = 0;
+    
+    rules[1] = {1,2,3,4,5};
+    rules[2] = {2,1,2,3,2,4,2,5};
+    rules[3] = {3,3,1,1,2,2,4,4,5,5};
+    
+    
+    scores[1] = 0;
+    scores[2] = 0;
+    scores[3] = 0;
+
     
     for(int i = 1; i <= 3; i++){
-        int count = 0;
-        int length = peoples[i].size();
-        if(answers[0] == peoples[i][0]){
-            count++;
-        }
-        for(int j = 1; j < answers.size(); j++){
-            if(peoples[i][j%length] == answers[j]){
-                count++;
+        int vec_size = rules[i].size();
+        for(int j = 0; j < answers.size(); j++){
+            if(rules[i][j % vec_size] == answers[j]){
+                scores[i]++;
             }
         }
-        cout << count << endl;
-        chance[i-1] = count;
-        if(high < count)
-        {
-            high = count;
+        if(max_value < scores[i]){
+            max_value = scores[i];
         }
     }
-    for(int i = 0; i < 3; i++){
-        if(high == chance[i])
-        {
-            solution.push_back(i+1);
+    for(int i = 1; i <= 3; i++){
+        if(scores[i] == max_value){
+            answer.push_back(i);
         }
     }
-    return solution;
+    return answer;
 }
