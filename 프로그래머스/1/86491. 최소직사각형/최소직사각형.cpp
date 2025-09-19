@@ -1,23 +1,23 @@
 #include <string>
 #include <vector>
-#include <algorithm>
-using namespace std;
 
+using namespace std;
+//두 값중에 큰값이 저장된 큰값보다 작아야함
+//두 값중에 작은값이 저장된 작은값보다 작아야함
 int solution(vector<vector<int>> sizes) {
     int answer = 0;
-    int height = 0;
-    int width = 0;
-    
-    for(int i = 0; i < sizes.size(); i++){
-        if(sizes[i][0] > sizes[i][1]){
-            height = max(height, sizes[i][0]);
-            width = max(width, sizes[i][1]);
+    int min_value = sizes[0][0] > sizes[0][1]? sizes[0][1] : sizes[0][0];
+    int max_value = sizes[0][0] < sizes[0][1]? sizes[0][1] : sizes[0][0];
+    for(int i = 1; i < sizes.size(); i++){
+        int min_temp = sizes[i][0] > sizes[i][1] ? sizes[i][1] : sizes[i][0];
+        int max_temp = sizes[i][0] < sizes[i][1] ? sizes[i][1] : sizes[i][0];
+        if(max_temp > max_value){
+            max_value = max_temp;
         }
-        else{
-            height = max(height, sizes[i][1]);
-            width = max(width, sizes[i][0]);
+        if(min_temp > min_value){
+            min_value = min_temp;
         }
     }
-    answer = width* height;
+    answer = max_value * min_value;
     return answer;
 }
